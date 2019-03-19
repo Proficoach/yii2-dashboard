@@ -31,7 +31,7 @@ class Dashboard extends ActiveRecord
      */
     public static function tableName()
     {
-        return 'dashboard';
+        return '{{%dashboard}}';
     }
 
     /**
