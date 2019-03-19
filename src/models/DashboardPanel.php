@@ -33,7 +33,7 @@ class DashboardPanel extends ActiveRecord
      */
     public static function tableName()
     {
-        return 'dashboard_panel';
+        return '{{%dashboard_panel}}';
     }
 
     /**
